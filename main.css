@@ -227,6 +227,25 @@ body {
         position: relative;
         top: 100px;
     }
+
+
+
+
+    #tugrul {
+        display: none;
+    }
+
+    #button {
+        display: none;
+    }
+
+    #news {
+        display: none;
+    }
+
+    #events {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1360px) {
