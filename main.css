@@ -165,7 +165,7 @@
 }
 
 .panel p {
-    width: 80%;
+    width: 320px;
     margin: auto;
 
     color: #373A40;
@@ -177,7 +177,7 @@
     position: relative;
     display: block;
     height: 50px;
-    width: 175px;
+    width: 50%;
     margin: auto;
     margin-bottom: 0px;
 
@@ -200,6 +200,11 @@
 
 #button3 {
     top: 18px;
+}
+
+.panel:hover {
+    width: 450px;
+    transition: 1.5s;
 }
 
 #tugrul p{
