@@ -236,6 +236,18 @@ body {
         margin: auto;
     }
 
+    #button1 {
+        top: 20px;
+    }
+
+    #button2 {
+        top: 95px;
+    }
+
+    #button3 {
+        top: 25px;
+    }
+
     #panels-bg {
         height: 2100px;
         width: 100%;
