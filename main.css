@@ -42,13 +42,25 @@
 
 
 #navbar a {
-    line-height: 100px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
 
     text-decoration: none;
     color: #373A40;
+}
+
+.navbar-element a {
+    line-height: 100px;
+
+    /* Buradaki font-size özelliği menü sekmelerinin yazı boyutunu değiştirir. */
+    font-size: 20px;
+}
+
+.dropdown-element a {
+
+    /* Buradaki font-size özelliği menü sekmelerinin yazı boyutunu değiştirir, line-height özelliği ise sekmelerin yüksekliğini kontrol eder. */
+    line-height: 80px;
     font-size: 16px;
 }
 
