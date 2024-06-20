@@ -1,0 +1,38 @@
+#content {
+    display: block;
+    height: fit-content;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+#content img {
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+
+#content h1 {
+    color: #373A40;
+    font-size: 20px;
+    text-align: left;
+}
+
+#content p {
+    color: #373A40;
+    font-size: 16px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1300px) {
+    #content {
+        width: 500px;
+    }
+
+    #content img {
+        height: unset;
+        width: 500px;
+    }
+}
