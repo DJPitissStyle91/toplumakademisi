@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    margin: 20px;
+    max-height: 40px;
+
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 80px;
+
+    background-color: #EEEEEE;
+}
+
+#title {
+    display: inline-block;
+    width: fit-content;
+    position: absolute;
+
+    line-height: 80px;
+    font-size: 24px;
+    color: #373A40;
+}
+
+#navbar {
+    width: fit-content;
+    position: absolute;
+    right: 0;
+}
+
+#navbar li, #navbar a{
+    position: relative;
+    display: inline-block;
+}
+
+
+#navbar a {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+
+    text-decoration: none;
+    color: #373A40;
+}
+
+.navbar-element a {
+    line-height: 80px;
+
+    /* Buradaki font-size özelliği menü sekmelerinin yazı boyutunu değiştirir. */
+    font-size: 16px;
+}
+
+.dropdown-element a {
+
+    /* Buradaki font-size özelliği menü sekmelerinin yazı boyutunu değiştirir, line-height özelliği ise sekmelerin yüksekliğini kontrol eder. */
+    line-height: 60px;
+    font-size: 16px;
+}
+
+#navbar li:hover {
+    background-color: #DC5F00;
+}
+
+#navbar a:hover {
+    color: #EEEEEE;
+}
+
+#navbar a:hover i {
+    border-color: #EEEEEE;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    background-color: #EEEEEE;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DC5F00;
+}
+
+.dropdown li a {
+    width: 182px;
+    text-align: left;
+}
+
+.drpbtn:hover .dropdown {
+    display: block;
+}
+
+.arrow-down {
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid #373A40;
+    border-width: 0 2px 2px 0;
+}
+
+#navbar-arrow {
+    position: absolute;
+    top: 29px;
+    right: 29px;
+    display: none;
+    width: 15px;
+    height: 15px;
+}
+
+@media only screen and (max-width: 1360px) {
+    #navbar-list {
+        display: none;
+        background-color: #EEEEEE;
+    }
+    #navbar-arrow {
+        display: inline-block;
+    }
+
+    #navbar:hover #navbar-list {
+        display: inline-block;
+        position: relative;
+        top: 80px;
+    }
+}

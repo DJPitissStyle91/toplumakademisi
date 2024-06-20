@@ -1,0 +1,151 @@
+#panels-bg {
+    height: 100vh;
+    min-height: 900px;
+    width: 100%;
+
+    background-image: url('/assets/images/hitit_gunesi.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#panels-fade {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+
+    background-color: #686D76EF;
+}
+
+#panel-container {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    vertical-align: middle;
+    margin: auto;
+    padding-top: 120px;
+    z-index: 1;
+}
+
+#text-field h1 {
+    width: 456px;
+    margin: auto;
+
+    color: #373A40;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+}
+
+#text-field p {
+    width: 1074px;
+    margin: auto;
+    margin-top: 30px;
+
+    color: #373A40;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.panel {
+    vertical-align: top;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    margin-top: 40px;
+
+    background-color: #EEEEEE;
+    border-radius: 100px;
+}
+
+.panel h1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    color: #373A40;
+    font-size: 30px;
+    text-align: center;
+}
+
+.panel p {
+    width: 320px;
+    margin: auto;
+
+    color: #373A40;
+    font-size: 24px;
+    text-align: center;
+}
+
+.panel-button {
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 240px;
+    margin: auto;
+    margin-bottom: 0px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    background-color: #DC5F00;
+    color: #EEEEEE;
+    border-radius: 50px;
+    font-size: 24px;
+}
+
+#button1 {
+    top: 5px;
+}
+
+#button2 {
+    top: 47px;
+}
+
+#button3 {
+    top: 47px;
+}
+
+.panel:hover {
+    width: 450px;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 1360px) {
+    
+    .panel {
+        display: block;
+        margin: auto;
+    }
+
+    #button1 {
+        top: 20px;
+    }
+
+    #button2 {
+        top: 60px;
+    }
+
+    #button3 {
+        top: 60px;
+    }
+
+    #panels-bg {
+        height: 2100px;
+        width: 100%;
+    }
+
+    #panels-fade {
+        height: 2100px;
+        width: 100%;
+    }
+
+    #text-field p {
+        width: 500px;
+    }
+}
