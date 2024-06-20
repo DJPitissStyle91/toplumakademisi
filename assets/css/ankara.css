@@ -1,11 +1,14 @@
 #content {
     display: block;
     height: fit-content;
-    width: 1000px;
+    width: 1300px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 20px;
+
+    border-style: solid;
+    border-color: #373A40;
 }
 
 #content img {
@@ -26,7 +29,7 @@
     text-align: left;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1360px) {
     #content {
         width: 500px;
     }
