@@ -4,7 +4,7 @@
     width: 100%;
 
     background-image: url('/assets/images/hitit_gunesi.svg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -53,13 +53,13 @@
 .panel {
     vertical-align: top;
     display: inline-block;
-    width: 400px;
+    width: 350px;
     height: 500px;
     margin: 20px;
     margin-top: 40px;
 
     background-color: #EEEEEE;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 
 .panel h1 {
@@ -86,7 +86,7 @@
     position: relative;
     display: block;
     height: 50px;
-    width: 240px;
+    width: 250px;
     margin: auto;
     margin-bottom: 0px;
 
@@ -111,16 +111,73 @@
     top: 47px;
 }
 
+#button4 {
+    top: 40px;
+}
+
 .panel:hover {
-    width: 450px;
+    width: 400px;
     transition: 1s;
 }
 
-@media only screen and (max-width: 1360px) {
+#broadcast-bg {
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-color: #DC5F00;
+}
+
+#broadcast-container {
+
+    height: fit-content;
+    width: 1280px;
+    margin: auto;
+}
+
+#stream {
+    display: inline-block;
+    width: 55%;
+    height: 654px;
+
+    border-radius: 25px;
+}
+
+#broadcast-text {
+    display: inline-block;
+    padding: 50px;
+    margin-right: 64px;
+    vertical-align: top;
+    width: 407px;
+    height: 554px;
+
+    background-color: #EEEEEE;
+    border-radius: 25px;
+}
+
+#broadcast-text h1 {
+    color: #373A40;
+    font-size: 20px;
+    text-align: left;
+}
+
+#broadcast-text p {
+    color: #373A40;
+    font-size: 16px;
+    text-align: left;
+}
+
+.panel, .panel-button, #stream, #broadcast-text {
+    box-shadow: 2px 2px #373A40;
+}
+
+@media only screen and (max-width: 1280px) {
     
     .panel {
         display: block;
         margin: auto;
+        width: 400px;
     }
 
     #button1 {
@@ -147,5 +204,22 @@
 
     #text-field p {
         width: 500px;
+    }
+
+    #broadcast-container {
+        width: 500px;
+    }
+
+    #broadcast-text {
+        display: block;
+        margin: auto;
+        margin-bottom: 50px;
+        width: 350px;
+    }
+
+    #stream {
+        display: block;
+        margin: auto;
+        width: 450px;
     }
 }

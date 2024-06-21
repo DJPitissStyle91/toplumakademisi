@@ -55,16 +55,14 @@ body {
 }
 
 .navbar-element a {
+    
     line-height: 80px;
-
-    /* Buradaki font-size özelliği menü sekmelerinin yazı boyutunu değiştirir. */
     font-size: 16px;
 }
 
 .dropdown-element a {
 
-    /* Buradaki font-size özelliği menü sekmelerinin yazı boyutunu değiştirir, line-height özelliği ise sekmelerin yüksekliğini kontrol eder. */
-    line-height: 60px;
+    line-height: 40px;
     font-size: 16px;
 }
 
@@ -85,9 +83,7 @@ body {
     position: absolute;
     z-index: 3;
     background-color: #EEEEEE;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #DC5F00;
+    box-shadow: 2px 2px #373A40;
 }
 
 .dropdown li a {
@@ -117,11 +113,13 @@ body {
     height: 15px;
 }
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width: 1280px) {
+
     #navbar-list {
         display: none;
         background-color: #EEEEEE;
     }
+
     #navbar-arrow {
         display: inline-block;
     }
