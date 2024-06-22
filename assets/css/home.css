@@ -54,7 +54,7 @@
     vertical-align: top;
     display: inline-block;
     width: 350px;
-    height: 500px;
+    height: 400px;
     margin: 20px;
     margin-top: 40px;
 
@@ -63,22 +63,24 @@
 }
 
 .panel h1 {
-    width: 80%;
+    display: block;
+    width: 350px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 
     color: #373A40;
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
 }
 
 .panel p {
     width: 320px;
+    height: 250px;
     margin: auto;
 
     color: #373A40;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -99,22 +101,6 @@
     font-size: 24px;
 }
 
-#button1 {
-    top: 5px;
-}
-
-#button2 {
-    top: 47px;
-}
-
-#button3 {
-    top: 47px;
-}
-
-#button4 {
-    top: 40px;
-}
-
 .panel:hover {
     width: 400px;
     transition: 1s;
@@ -122,24 +108,26 @@
 
 #broadcast-bg {
     width: 100%;
-    height: fit-content;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    height: 100vh;
+    min-height: 900px;
+    padding: 1px;
 
     background-color: #DC5F00;
 }
 
 #broadcast-container {
 
-    height: fit-content;
+    display: block;
     width: 1280px;
+    height: fit-content;
     margin: auto;
+    margin-top: 150px;
 }
 
 #stream {
     display: inline-block;
     width: 55%;
-    height: 654px;
+    height: 724px;
 
     border-radius: 25px;
 }
@@ -147,10 +135,10 @@
 #broadcast-text {
     display: inline-block;
     padding: 50px;
-    margin-right: 64px;
+    margin-right: 14px;
     vertical-align: top;
-    width: 407px;
-    height: 554px;
+    width: 457px;
+    height: 624px;
 
     background-color: #EEEEEE;
     border-radius: 25px;
@@ -158,14 +146,15 @@
 
 #broadcast-text h1 {
     color: #373A40;
-    font-size: 20px;
+    font-size: 24px;
     text-align: left;
 }
 
 #broadcast-text p {
     color: #373A40;
-    font-size: 16px;
+    font-size: 20px;
     text-align: left;
+    height: 540px;
 }
 
 .panel, .panel-button, #stream, #broadcast-text {
@@ -178,27 +167,24 @@
         display: block;
         margin: auto;
         width: 400px;
+        height: fit-content;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        margin-top: 30px;
     }
 
-    #button1 {
-        top: 20px;
-    }
-
-    #button2 {
-        top: 60px;
-    }
-
-    #button3 {
-        top: 60px;
+    .panel:hover {
+        width: 450px;
+        transition: 1s;
     }
 
     #panels-bg {
-        height: 2100px;
+        height: 1650px;
         width: 100%;
     }
 
     #panels-fade {
-        height: 2100px;
+        height: 1650px;
         width: 100%;
     }
 
@@ -210,11 +196,22 @@
         width: 500px;
     }
 
+    #broadcast-bg {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+
     #broadcast-text {
         display: block;
         margin: auto;
         margin-bottom: 50px;
         width: 350px;
+        height: fit-content;
+    }
+
+    #broadcast-text p {
+        height: fit-content;
+        margin-bottom: 50px;
     }
 
     #stream {

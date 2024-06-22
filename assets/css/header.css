@@ -113,6 +113,12 @@ body {
     height: 15px;
 }
 
+#itap-logo {
+    vertical-align: middle;
+    height: 26px;
+    margin-right: 5px;
+}
+
 @media only screen and (max-width: 1280px) {
 
     #navbar-list {
