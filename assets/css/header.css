@@ -29,7 +29,7 @@ body {
     position: absolute;
 
     line-height: 80px;
-    font-size: 24px;
+    font-size: 20px;
     color: #373A40;
 }
 
@@ -45,9 +45,9 @@ body {
 }
 
 
-#navbar a {
-    padding-left: 30px;
-    padding-right: 30px;
+.navbar-element a {
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
 
     text-decoration: none;
@@ -60,10 +60,17 @@ body {
     font-size: 16px;
 }
 
-.bottom-dropdown-element a {
+.dropdown-element {
+    width: fit-content;
+}
 
+.dropdown-element a {
+    
+    width: 210px;
     line-height: 40px;
     font-size: 16px;
+    text-align: center;
+    white-space: nowrap;
 }
 
 #navbar li:hover {
@@ -86,17 +93,16 @@ body {
     box-shadow: 2px 2px #373A40;
 }
 
-.bottom-dropdown li a {
-    width: 182px;
-    text-align: left;
-}
-
 .drpbtn:hover > .bottom-dropdown {
     display: block;
 }
 
 .drpbtn:hover > .right-dropdown {
     display: inline-block;
+}
+
+.drpbtn:hover > a {
+    color: #EEEEEE;
 }
 
 .arrow-down {
@@ -106,6 +112,15 @@ body {
     -webkit-transform: rotate(45deg);
     border: solid #373A40;
     border-width: 0 2px 2px 0;
+}
+
+.arrow-right {
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid #373A40;
+    border-width: 2px 2px 0 0;
 }
 
 #navbar-arrow {
