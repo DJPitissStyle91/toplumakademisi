@@ -60,7 +60,7 @@ body {
     font-size: 16px;
 }
 
-.dropdown-element a {
+.bottom-dropdown-element a {
 
     line-height: 40px;
     font-size: 16px;
@@ -78,7 +78,7 @@ body {
     border-color: #EEEEEE;
 }
 
-.dropdown {
+.bottom-dropdown, .right-dropdown {
     display: none;
     position: absolute;
     z-index: 3;
@@ -86,13 +86,17 @@ body {
     box-shadow: 2px 2px #373A40;
 }
 
-.dropdown li a {
+.bottom-dropdown li a {
     width: 182px;
     text-align: left;
 }
 
-.drpbtn:hover .dropdown {
+.drpbtn:hover > .bottom-dropdown {
     display: block;
+}
+
+.drpbtn:hover > .right-dropdown {
+    display: inline-block;
 }
 
 .arrow-down {
