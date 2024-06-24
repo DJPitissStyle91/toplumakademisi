@@ -68,7 +68,7 @@ body {
 .dropdown-element a {
     display: flex;
     line-height: 40px;
-    font-size: 16px;
+    font-size: 12px;
     white-space: nowrap;
     flex-grow: 1;
 }
