@@ -24,7 +24,8 @@
 }
 
 #broadcast-text {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
     padding: 50px;
     margin-right: 14px;
     vertical-align: top;
@@ -45,7 +46,7 @@
     color: #373A40;
     font-size: 20px;
     text-align: left;
-    height: 540px;
+    height: fit-content;
 }
 
 .panel-button {
@@ -55,6 +56,7 @@
     width: 250px;
     margin: auto;
     margin-bottom: 0px;
+    align-self: flex-end;
 
     text-decoration: none;
     text-align: center;
