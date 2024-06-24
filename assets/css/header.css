@@ -60,17 +60,20 @@ body {
 }
 
 .dropdown-element {
-    display: block;
-    width: 100%;
+    display: flex;
+    flex-grow: 1;
 }
 
 .dropdown-element a {
     display: block;
-    padding: 0;
+    box-sizing: border-box;
     width: 100%;
     line-height: 40px;
     font-size: 16px;
     white-space: nowrap;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #navbar li:hover {
@@ -87,6 +90,7 @@ body {
 
 .bottom-dropdown, .right-dropdown {
     display: none;
+    flex-direction: column;
     position: absolute;
     z-index: 3;
     background-color: #EEEEEE;
@@ -94,12 +98,12 @@ body {
 }
 
 .drpbtn:hover > .bottom-dropdown {
-    display: block;
+    display: flex;
     
 }
 
 .drpbtn:hover > .right-dropdown {
-    display: inline-block;
+    display: inline-flex;
 }
 
 .drpbtn:hover > a {
