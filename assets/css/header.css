@@ -55,22 +55,22 @@ body {
 }
 
 .navbar-element a {
-    
     line-height: 80px;
     font-size: 16px;
 }
 
 .dropdown-element {
-    display: flex;
-    flex-grow: 1;
+    display: block;
+    width: 100%;
 }
 
 .dropdown-element a {
-    display: flex;
+    display: block;
+    padding: 0;
+    width: 100%;
     line-height: 40px;
     font-size: 16px;
     white-space: nowrap;
-    flex-grow: 1;
 }
 
 #navbar li:hover {
@@ -91,17 +91,15 @@ body {
     z-index: 3;
     background-color: #EEEEEE;
     box-shadow: 2px 2px #373A40;
-
-    flex-direction: column;
 }
 
 .drpbtn:hover > .bottom-dropdown {
-    display: flex;
+    display: block;
     
 }
 
 .drpbtn:hover > .right-dropdown {
-    display: inline-flex;
+    display: inline-block;
 }
 
 .drpbtn:hover > a {
