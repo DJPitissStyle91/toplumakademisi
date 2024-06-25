@@ -5,6 +5,7 @@
 
 body {
     padding-top: 80px;
+    overflow: hidden;
 }
 
 #logo {
@@ -31,12 +32,13 @@ body {
     line-height: 80px;
     font-size: 20px;
     color: #373A40;
+    right: 0;
 }
 
 #navbar {
     width: fit-content;
     position: absolute;
-    right: 0;
+    left: 0;
 }
 
 #navbar li, #navbar a{
@@ -131,7 +133,7 @@ body {
 #navbar-arrow {
     position: absolute;
     top: 29px;
-    right: 29px;
+    left: 29px;
     display: none;
     width: 15px;
     height: 15px;
@@ -158,5 +160,9 @@ body {
         display: inline-block;
         position: relative;
         top: 80px;
+    }
+
+    #navbar-list .navbar-element {
+        display: block;
     }
 }
