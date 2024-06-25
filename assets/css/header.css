@@ -165,4 +165,8 @@ body {
     #navbar-list .navbar-element {
         display: block;
     }
+
+    .drpbtn:hover > .bottom-dropdown {
+        display: inline-flex;
+    }
 }
