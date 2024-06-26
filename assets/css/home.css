@@ -121,13 +121,16 @@
     }
 
     .panel {
-        display: block;
+        display: flex;
         margin: auto;
         width: 400px;
         height: fit-content;
-        padding-bottom: 20px;
         padding-top: 10px;
         margin-top: 30px;
+    }
+
+    .panel-button {
+        margin-top: 20px;
     }
 
     .panel:hover {
