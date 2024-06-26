@@ -20,18 +20,22 @@
 }
 
 #panel-container {
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     width: fit-content;
     height: fit-content;
-    vertical-align: middle;
     margin: auto;
     padding-top: 40px;
     z-index: 1;
 }
 
 #text-field h1 {
-    width: 456px;
+    width: fit-content;
     margin: auto;
+    margin-bottom: 100px;
 
     color: #373A40;
     font-weight: bolder;
@@ -112,6 +116,10 @@
 
 @media only screen and (max-width: 1280px) {
     
+    #panel-container {
+        position: relative;
+    }
+
     .panel {
         display: block;
         margin: auto;
@@ -139,33 +147,5 @@
 
     #text-field p {
         width: 500px;
-    }
-
-    #broadcast-container {
-        width: 500px;
-    }
-
-    #broadcast-bg {
-        height: fit-content;
-        padding-bottom: 50px;
-    }
-
-    #broadcast-text {
-        display: block;
-        margin: auto;
-        margin-bottom: 50px;
-        width: 350px;
-        height: fit-content;
-    }
-
-    #broadcast-text p {
-        height: fit-content;
-        margin-bottom: 50px;
-    }
-
-    #stream {
-        display: block;
-        margin: auto;
-        width: 450px;
     }
 }
