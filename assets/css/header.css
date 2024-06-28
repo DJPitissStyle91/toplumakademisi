@@ -147,23 +147,18 @@ body {
     box-sizing: border-box;
     height: 80px;
     width: 80px;
-    padding-top: 25px;
-    padding-top: 25px;
+    padding-top: 30px;
+    padding-top: 30px;
 }
 
 #navbar-button > div {
     display: block;
     width: 50px;
-    height: 6px;
+    height: 4px;
     margin: auto;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     background-color: #EEEEEE;
-}
-
-#navbar-button:hover {
-    transform: rotate(360deg);
-    transition: 1s;
 }
 
 #itap-logo {
