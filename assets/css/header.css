@@ -89,7 +89,7 @@ body {
     flex-direction: column;
     position: absolute;
     z-index: 3;
-    background-color: hsl(66, 60%, 78%);
+    background-color: hsl(66, 50%, 78%);
     box-shadow: 2px 2px #000000;
 }
 
