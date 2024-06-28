@@ -138,6 +138,33 @@ body {
     height: 15px;
 }
 
+#navbar-button {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    height: 80px;
+    width: 80px;
+    padding-top: 25px;
+    padding-top: 25px;
+}
+
+#navbar-button > div {
+    display: block;
+    width: 50px;
+    height: 6px;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #373A40;
+}
+
+#navbar-button:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
 #itap-logo {
     vertical-align: middle;
     height: 26px;
@@ -153,6 +180,10 @@ body {
 
     #navbar-arrow {
         display: inline-block;
+    }
+
+    #navbar-button {
+        display: block;
     }
 
     #navbar:hover #navbar-list {
