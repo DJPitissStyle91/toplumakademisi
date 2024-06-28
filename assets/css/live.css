@@ -103,7 +103,8 @@
 
     #stream-container {
         display: block;
-        width: calc(100%-2px);
+        box-sizing: border-box;
+        width: 100%;
         padding-top: 50px;
         padding-bottom: 50px;
         
