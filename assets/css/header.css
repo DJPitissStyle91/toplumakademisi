@@ -20,7 +20,7 @@ body {
     width: 100%;
     height: 80px;
 
-    background-color: #EEEEEE;
+    background-color: #059212;
 }
 
 #title {
@@ -30,7 +30,7 @@ body {
 
     line-height: 80px;
     font-size: 20px;
-    color: #373A40;
+    color: #EEEEEE;
     right: 0;
 }
 
@@ -46,13 +46,14 @@ body {
 }
 
 
-.navbar-element a {
+.navbar-element > a {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
 
+    font-weight: 900;
     text-decoration: none;
-    color: #373A40;
+    color: #EEEEEE;
 }
 
 .navbar-element a {
@@ -75,18 +76,12 @@ body {
     padding: 0;
     padding-left: 20px;
     padding-right: 20px;
+    color: #000000;
+    text-decoration: none;
 }
 
-#navbar li:hover {
-    background-color: #DC5F00;
-}
-
-#navbar a:hover {
-    color: #EEEEEE;
-}
-
-#navbar a:hover i {
-    border-color: #EEEEEE;
+#navbar-list li:hover {
+    background-color: #06D001;
 }
 
 .bottom-dropdown, .right-dropdown {
@@ -94,8 +89,18 @@ body {
     flex-direction: column;
     position: absolute;
     z-index: 3;
-    background-color: #EEEEEE;
-    box-shadow: 2px 2px #373A40;
+    background-color: #F3FF90;
+    box-shadow: 2px 2px #000000;
+}
+
+.bottom-dropdown .arrow-down, .right-dropdown .arrow-down {
+    border: solid #000000;
+    border-width: 0 2px 2px 0;
+} 
+
+.bottom-dropdown .arrow-right, .right-dropdown .arrow-right {
+    border: solid #000000;
+    border-width: 2px 2px 0 0;
 }
 
 .drpbtn:hover > .bottom-dropdown {
@@ -107,16 +112,12 @@ body {
     display: inline-flex;
 }
 
-.drpbtn:hover > a {
-    color: #EEEEEE;
-}
-
 .arrow-down {
     display: inline-block;
     padding: 3px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    border: solid #373A40;
+    border: solid #EEEEEE;
     border-width: 0 2px 2px 0;
 }
 
@@ -125,7 +126,7 @@ body {
     padding: 3px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    border: solid #373A40;
+    border: solid #EEEEEE;
     border-width: 2px 2px 0 0;
 }
 
@@ -157,7 +158,7 @@ body {
     margin: auto;
     margin-top: 3px;
     margin-bottom: 3px;
-    background-color: #373A40;
+    background-color: #EEEEEE;
 }
 
 #navbar-button:hover {
@@ -175,7 +176,7 @@ body {
 
     #navbar-list {
         display: none;
-        background-color: #EEEEEE;
+        background-color: #059212;
     }
 
     #navbar-arrow {
