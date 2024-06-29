@@ -1,12 +1,13 @@
 body {
     background-image: url('/assets/images/wheat.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #content {
     display: block;
     height: fit-content;
     width: 1250px;
-    margin: auto;
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 20px;
@@ -57,9 +58,10 @@ body {
 
 @media only screen and (max-width: 1280px) {
     #content {
-        width: 500px;
+        width: 100%;
         border-style: none;
         margin-top: 0;
+        margin-bottom: 0;
     }
 
     .image-row img {

@@ -1,5 +1,7 @@
 body {
     background-image: url('/assets/images/wheat.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #content {
@@ -39,7 +41,7 @@ body {
         border-style: none;
         margin-top: 0;
     }
-    
+
     #content h1 {
         margin-left: 10px;
     }

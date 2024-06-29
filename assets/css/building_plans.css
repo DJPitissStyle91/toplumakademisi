@@ -1,5 +1,7 @@
 body {
     background-image: url('/assets/images/wheat.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #content {
