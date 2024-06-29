@@ -1,5 +1,5 @@
 body {
-    background-color: #CCB188;
+    background-image: url('/assets/images/wheat.jpg');
 }
 
 #content {
@@ -11,8 +11,9 @@ body {
     margin-bottom: 40px;
     padding: 20px;
 
+    background-color: #f5deb3A0;
     border-style: solid;
-    border-color: #686D76EF;
+    border-color: #000000;
 }
 
 .image-row {
@@ -30,7 +31,7 @@ body {
 #content h1 {
     margin-left: 55px;
 
-    color: #373A40;
+    color: #000000;
     font-size: 20px;
     text-align: left;
 }
@@ -39,7 +40,7 @@ body {
     margin-left: 55px;
     margin-right: 55px;
 
-    color: #373A40;
+    color: #000000;
     font-size: 16px;
     text-align: left;
 }
