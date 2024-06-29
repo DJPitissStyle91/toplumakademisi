@@ -85,7 +85,7 @@ body {
 }
 
 .dropdown-element:hover {
-    background-color: hsl(42, 60%, 80%);
+    background-color: hsl(66, 40%, 90%);
 }
 
 .bottom-dropdown, .right-dropdown {
@@ -93,7 +93,7 @@ body {
     flex-direction: column;
     position: absolute;
     z-index: 3;
-    background-color: hsl(42, 60%, 70%);
+    background-color: hsl(66, 40%, 78%);
     box-shadow: 2px 2px #000000;
 }
 
