@@ -10,6 +10,7 @@ body {
     display: block;
     height: fit-content;
     width: 1250px;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 20px;
