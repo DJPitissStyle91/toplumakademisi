@@ -16,7 +16,7 @@
     height: 100%;
     min-height: 900px;
 
-    background-color: #686D76EF;
+    background-color: #A5885DC9;
 }
 
 #panel-container {
@@ -63,7 +63,7 @@
     margin: 20px;
     margin-top: 40px;
 
-    background-color: #EEEEEE;
+    background-color: #D2E1E9;
     border-radius: 50px;
 }
 
@@ -99,8 +99,8 @@
     text-decoration: none;
     text-align: center;
     line-height: 50px;
-    background-color: hsl(126, 50%, 30%);
-    color: #EEEEEE;
+    background-color: #518555;
+    color: #D2E1E9;
     border-radius: 50px;
     font-size: 24px;
 }

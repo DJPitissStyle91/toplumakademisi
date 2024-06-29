@@ -20,7 +20,7 @@ body {
     width: 100%;
     height: 80px;
 
-    background-color: hsl(126, 50%, 30%);
+    background-color: #518555;
 }
 
 #title {
@@ -30,7 +30,7 @@ body {
 
     line-height: 80px;
     font-size: 20px;
-    color: #EEEEEE;
+    color: #D2E1E9;
     right: 0;
 }
 
@@ -53,7 +53,7 @@ body {
 
     font-weight: 900;
     text-decoration: none;
-    color: #EEEEEE;
+    color: #D2E1E9;
 }
 
 .navbar-element a {
@@ -80,8 +80,12 @@ body {
     text-decoration: none;
 }
 
-#navbar-list li:hover {
-    background-color: hsl(119, 50%, 41%);
+.navbar-element:hover {
+    background-color: hsl(125, 24%, 50%);
+}
+
+.dropdown-element:hover {
+    background-color: hsl(42, 99%, 80%);
 }
 
 .bottom-dropdown, .right-dropdown {
@@ -89,7 +93,7 @@ body {
     flex-direction: column;
     position: absolute;
     z-index: 3;
-    background-color: hsl(66, 40%, 78%);
+    background-color: #FED168;
     box-shadow: 2px 2px #000000;
 }
 
@@ -117,7 +121,7 @@ body {
     padding: 3px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    border: solid #EEEEEE;
+    border: solid #D2E1E9;
     border-width: 0 2px 2px 0;
 }
 
@@ -126,7 +130,7 @@ body {
     padding: 3px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    border: solid #EEEEEE;
+    border: solid #D2E1E9;
     border-width: 2px 2px 0 0;
 }
 
@@ -157,7 +161,7 @@ body {
     margin: auto;
     margin-top: 9px;
     margin-bottom: 9px;
-    background-color: #EEEEEE;
+    background-color: #D2E1E9;
 }
 
 #itap-logo {

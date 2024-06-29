@@ -1,3 +1,7 @@
+body {
+    background-color: #EDD9AB;
+}
+
 #content {
     display: block;
     height: fit-content;
