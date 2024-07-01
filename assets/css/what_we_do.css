@@ -1,0 +1,7 @@
+body {
+    background-image: url('/assets/images/coban_2.jpeg');
+    /* Photo by <a href="https://unsplash.com/@leoliang1230?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leo chen</a> on <a href="https://unsplash.com/photos/brown-wheat-field-during-daytime-XfYQBdIqCb0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+   */
+    background-attachment: fixed;
+    background-size: cover;
+}

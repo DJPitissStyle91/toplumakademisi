@@ -1,11 +1,3 @@
-body {
-    background-image: url('/assets/images/wheat.jpg');
-    /* Photo by <a href="https://unsplash.com/@leoliang1230?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leo chen</a> on <a href="https://unsplash.com/photos/brown-wheat-field-during-daytime-XfYQBdIqCb0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-   */
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 #content {
     display: block;
     height: fit-content;
@@ -15,7 +7,7 @@ body {
     margin-bottom: 40px;
     padding: 20px;
 
-    background-color: #f5deb3A0;
+    background-color: #f5deb3D0;
     border-style: solid;
     border-color: #000000;
 }
