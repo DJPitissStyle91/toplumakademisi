@@ -10,7 +10,7 @@ body {
     min-height: 900px;
     padding-top: 1px;
 
-    background-color: hsla(63, 50%, 38%, 0.8);
+    background-color: hsla(63, 50%, 38%, 0.5);
 }
 
 #broadcast-container {
