@@ -12,7 +12,7 @@
     border-color: #000000;
 }
 
-#content h1 {
+#content > h1 {
     margin-left: 55px;
 
     color: #000000;
@@ -20,7 +20,7 @@
     text-align: left;
 }
 
-#content p {
+#content > p {
     margin-left: 55px;
     margin-right: 55px;
 
@@ -37,11 +37,11 @@
         margin-bottom: 0;
     }
 
-    #content h1 {
+    #content > h1 {
         margin-left: 10px;
     }
 
-    #content p {
+    #content > p {
         margin-left: 10px;
         margin-right: 10px;
     }

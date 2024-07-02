@@ -1,0 +1,62 @@
+#seminar-container {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.seminar-row {
+    display: block;
+    width: fit-content;
+}
+
+.seminar-box {
+    display: inline-flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-color: #D2E1E9;
+    padding: 15px;
+    box-shadow: 10px 10px hsl(201, 34%, 43%);
+
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+}
+
+.seminar-box h1 {
+    display: block;
+    margin: auto;
+    color: #000000;
+    font-size: 24px;
+    width: fit-content;
+}
+
+.seminar-box p {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    color: #000000;
+    font-size: 20px;
+    width: fit-content;
+}
+
+.seminar-box .date {
+    font-size: 24px;
+}
+
+.box-button {
+    display: block;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    align-self: flex-end;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    background-color: #518555;
+    color: #D2E1E9;
+    border-radius: 50px;
+    font-size: 24px;
+}
