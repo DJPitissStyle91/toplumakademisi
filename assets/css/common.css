@@ -1,5 +1,6 @@
 #content {
     display: block;
+    box-sizing: border-box;
     height: fit-content;
     width: 1250px;
     margin: auto;
