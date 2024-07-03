@@ -195,6 +195,12 @@ body {
         display: block;
     }
 
+    #navbar-list .navbar-element a {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
     .drpbtn:hover > .bottom-dropdown {
         display: inline-flex;
     }
