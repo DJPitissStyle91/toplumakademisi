@@ -33,6 +33,7 @@
 @media only screen and (max-width: 1280px) {
     #content {
         width: 100%;
+        min-height: 100vh;
         border-style: none;
         margin-top: 0;
         margin-bottom: 0;
