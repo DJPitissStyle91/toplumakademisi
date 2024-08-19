@@ -114,7 +114,7 @@
     box-shadow: 2px 2px #000000;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1625px) {
     
     #panel-container {
         position: relative;
@@ -139,12 +139,12 @@
     }
 
     #panels-bg {
-        height: 1650px;
+        height: 2050px;
         width: 100%;
     }
 
     #panels-fade {
-        height: 1650px;
+        height: 2050px;
         width: 100%;
     }
 
