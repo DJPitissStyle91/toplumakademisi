@@ -7,8 +7,9 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-    <title>Newsletter - Ankara Toplum Akademisi</title>
+    <title>Bültenimize Yazılın - Ankara Toplum Akademisi</title>
 
+    <link rel="stylesheet" href="/assets/css/newsletter.css">
     <link rel="stylesheet" href="/assets/css/common.css">
     <link rel="stylesheet" href="/assets/css/third_pages.css">
     <link rel="icon" href="/assets/images/favicon.png">
@@ -16,6 +17,34 @@
 <body>
     
     <!--# include file="/assets/html/header.html"-->
+    
+    <div id="newsletter-bg">
+        <div id="newsletter-container">
 
+            <div id="newsletter-info">
+                <h1>
+                    Bültenimize Yazılın
+                </h1>
+                <p id="newsletter-text">
+                    Bültenimize yazılarak tüm gelişmelerden haberdar olun, hiç bir etkinliği kaçırmayın.
+                </p>
+                <p id="terms">
+                    Bültenimize yazılarak <a href="#">KVKK ve veri işleme koşullarını</a> kabul etmiş olursunuz.
+                </p>
+            </div>
+            
+            <div id="signup-form-container">
+                <form action="signup.php" method="post">
+                    <label for="first">Adınız</label>
+                    <input type="text" name="first" required>
+                    <label for="last">Soyadınız</label>
+                    <input type="text" name="last" required>
+                    <label for="email">E-Posta Adresiniz</label>
+                    <input type="email" name="email" required>
+                    <button type="submit">Kaydol</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

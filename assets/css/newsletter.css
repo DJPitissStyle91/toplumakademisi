@@ -1,0 +1,102 @@
+#newsletter-bg {
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    padding-top: 1px;
+
+    background-color: hsla(63, 50%, 38%, 0.5);
+}
+
+#newsletter-container {
+    display: block;
+    width: 1000px;
+    height: fit-content;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+
+    background-color: #D2E1E9;
+    border-radius: 25px;
+}
+
+#newsletter-info, #signup-form-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#newsletter-info {
+    width: 60%;
+}
+
+#newsletter-info h1, #newsletter-text {
+    margin-top: 20px;
+    color: #373A40;
+}
+
+#terms {
+    margin-top: 200px;
+}
+
+#signup-form-container {
+    width: fit-content;
+    padding-left: 20px;
+    border-left-style: solid;
+    border-left-color: #373A40;
+    border-left-width: 2px;
+}
+
+#signup-form-container form label, #signup-form-container form input, #signup-form-container form button {
+    all: unset;
+    display: block;
+    width: fit-content;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 20px;
+    color: #373A40;
+}
+
+#signup-form-container form input {
+    border-style: solid;
+    border-width: 2px;
+    background-color: white;
+    border-color: #518555;
+    border-radius: 10px;
+    font-size: 20px
+}
+
+#signup-form-container form button {
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #518555;
+    color: #D2E1E9;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1280px) {
+
+    #newsletter-bg {
+        min-height: 700px;
+    }
+    
+    #newsletter-info, #signup-form-container {
+        display: block;
+    }
+
+    #newsletter-container {
+        width: fit-content;
+    }
+
+    #newsletter-info {
+        width: 450px;
+        margin: auto;
+    }
+
+    #signup-form-container {
+        border-left: none;
+        margin: auto;
+        padding-left: 0;
+    }
+}
