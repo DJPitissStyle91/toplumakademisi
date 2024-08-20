@@ -33,5 +33,7 @@ if (true) {
 
     // Close the connection
     pg_close($conn);
+
+    header('Location: nextpage.php');
 }
 ?>
