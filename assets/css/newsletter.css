@@ -99,4 +99,8 @@
         margin: auto;
         padding-left: 0;
     }
+
+    #terms {
+	margin-top: 20px;
+    }
 }
